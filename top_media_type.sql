@@ -11,4 +11,3 @@ FROM MediaType as mt
 GROUP BY MediaType
 ORDER BY PurchaseCount DESC
 Limit 1;
-

@@ -1,4 +1,8 @@
 /*
+    Provide a query that shows the most purchased track(s) of 2013.
+*/
+
+/*
     My first attempt at sub-subquery (non-working)
 */
 SELECT ttt.Name, secondquery.Total

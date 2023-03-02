@@ -1,3 +1,7 @@
+/*
+    Which sales agent made the most in sales in 2009?
+*/
+
 SELECT e.FirstName || ' ' || e.LastName as TopSalesAgent2009,
     MAX(totalSales) as Total2009Sales
 from (

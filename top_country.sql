@@ -1,3 +1,7 @@
+/*
+ Which country's customers spent the most?
+ */
+ 
 Select Country,
     MAX(TotalSales)
 from (

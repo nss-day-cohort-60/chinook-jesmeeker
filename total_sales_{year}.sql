@@ -1,3 +1,7 @@
+/*
+    What are the respective total sales for each of those years?
+*/
+
 SELECT SUM(Total) as Total,
     Case
         When InvoiceDate Like '2009%' Then '2009'

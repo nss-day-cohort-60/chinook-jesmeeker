@@ -1,5 +1,5 @@
 SELECT e.FirstName || ' ' || e.LastName as TopSalesAgent2009,
-    MAX(totalSales)
+    MAX(totalSales) as Total2009Sales
 from (
         SELECT e.employeeId as ID,
             e.FirstName || ' ' || e.LastName as TopSalesAgent2009,
